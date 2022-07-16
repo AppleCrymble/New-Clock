@@ -1,0 +1,23 @@
+html, body {padding: 0; margin: 0;}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100vh;
+}
+
+.display{
+    flex-shrink: 0;
+
+    padding: 10px 20px;
+
+    border: 5px solid #748bbd;
+    border-radius: 8px;
+
+    color: #748bbd;
+    font-family: Graduate;
+    font-size: 70px;
+    background-color: #ecf4f7;
+}
